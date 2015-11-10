@@ -1,7 +1,7 @@
 <%- if notice.present?%>
   <p id="notice" ><%= notice %></p>
 <%- end%>
-<h1>Your Mobile Catalog</h1>
+<h1>Mobile Catalog</h1>
 <% @products.each do |product| %>
   <div class="entry" >
     <%= image_tag(product.image_url) %>
